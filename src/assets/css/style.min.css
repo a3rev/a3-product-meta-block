@@ -1,0 +1,687 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wccom-product-collapsible-list__item .wccom-product-collapsible-list__item-heading h3 {
+  margin: 0;
+}
+
+.wccom-product-collapsible-list__item .wccom-product-collapsible-list__item-heading .arrowchevrontop {
+  display: none;
+}
+
+.wccom-product-collapsible-list__item .wccom-product-collapsible-list__item-heading .arrowchevronbottom {
+  display: block;
+}
+
+.wccom-product-collapsible-list__item[open] .wccom-product-collapsible-list__item-heading .arrowchevrontop {
+  display: block;
+}
+
+.wccom-product-collapsible-list__item[open] .wccom-product-collapsible-list__item-heading .arrowchevronbottom {
+  display: none;
+}
+
+.wccom-product-box__button {
+  border-bottom: 1px solid #dcdcde;
+  padding: 0px 0 16px;
+  margin: 0;
+}
+
+.wccom-product-collapsible-list__item {
+  border-bottom: 1px solid #dcdcde;
+  padding: 16px 0;
+  margin: 0;
+}
+
+.wccom-product-collapsible-list__item:first-child {
+
+  /*border-top: 1px solid #dcdcde*/
+}
+
+.wccom-product-collapsible-list__item[open] .wccom-product-collapsible-list__collapse-icon.fa {
+  transform: rotate(0)
+}
+
+.wccom-product-collapsible-list__collapsible-content {
+  padding-top: 8px
+}
+
+.wccom-product-collapsible-list__item-heading {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wccom-product-collapsible-list__item-heading::-webkit-details-marker {
+  display: none
+}
+
+.wccom-product-collapsible-list__item-title {
+  font-size: 16px;
+  line-height: 2;
+  margin: 0
+}
+
+.wccom-product-collapsible-list__collapse-icon.fa {
+  align-items: center;
+  color: #2c3338;
+  display: flex;
+  font-size: 12px;
+  height: 24px;
+  justify-content: center;
+  margin-left: auto;
+  transform: rotate(180deg);
+  transition: transform .2s;
+  width: 24px
+}
+
+.wccom-product-box__table {
+  display: table;
+}
+
+.wccom-product-box__table-row {
+  display: table-row;
+}
+
+.wccom-product-box__table-cell {
+  display: table-cell;
+  padding-bottom: 1.2em;
+  padding-right: 1.2em;
+}
+
+.wccom-product-box__table-detail-title {
+  min-width: 110px;
+}
+
+.wccom-product-box__vendor-privacy-link {
+  font-size: 14px;
+}
+
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wccom-product-box__button .wccom-product-collapsible-list__item-heading h3 {
+  margin-bottom: 0;
+}
+
+.wccom-product-box__button .wccom-product-collapsible-list__collapsible-description {
+  margin-bottom: 20px;
+}
+
+.wccom-product-box__button .wccom-product-add-to-cart-button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wccom-product-box__button .wccom-product-link-to-product {
+  text-align: center;
+}
+
+.wccom-product-box__button .wccom-product-link-to-product a {
+  text-align: center;
+}
+
+/**
+* The following styles get applied both on the front of your site
+* and in the editor.
+*
+* Replace them with your own styles or remove the file completely.
+*/
+.wccom-product-box__paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.wccom-product-box a {
+  text-decoration: underline;
+}
+
+.wccom-button {
+  align-items: center;
+  background: 0 0;
+  border: 2px solid #fca30a;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #fca30a !important;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  padding: 4px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none !important;
+}
+
+.wccom-button:hover {
+  border-color: #F27827 !important;
+  color: #F27827 !important;
+}
+
+
+.wccom-product-box__documentation-link {
+  background-color: #fff;
+  margin: 12px auto 16px;
+  max-width: 302px;
+  padding: 6px;
+}
+
+.wccom-button.is-secondary,
+.wccom-button.is-style-secondary {
+  border: 2px solid #fca30a;
+  color: #fca30a !important;
+}
+
+a.wccom-button:not(.is-link) {
+  text-decoration: none;
+}
+
+.wccom-product-box .wccom-product-box__vendor-privacy-link,
+.wccom-product-box .wccom-product-collapsible-list {
+  font-size: 14px;
+}
+
+/**
+* The following styles get applied both on the front of your site
+* and in the editor.
+*
+* Replace them with your own styles or remove the file completely.
+*/
+.wccom-tick-list {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.wccom-tick-list li {
+  list-style-image: url(data:image/svg+xml;utf8,<?xml%20version=%221.0%22%20encoding=%22utf-8%22?%3E%3Csvg%20width=%2212%22%20height=%2212%22%20viewBox=%220%200%201792%201792%22%20xmlns=%22http://www.w3.org/2000/svg%22%20fill=%22%23fca30a%22%3E%3Cpath%20d=%22m1671,566q0,40%20-28,68l-724,724l-136,136q-28,28%20-68,28t-68,-28l-136,-136l-362,-362q-28,-28%20-28,-68t28,-68l136,-136q28,-28%2068,-28t68,28l294,295l656,-657q28,-28%2068,-28t68,28l136,136q28,28%2028,68z%22/%3E%3C/svg%3E) !important;
+  margin-bottom: 8px;
+}
+
+/**
+* The following styles get applied both on the front of your site
+* and in the editor.
+*
+* Replace them with your own styles or remove the file completely.
+*/
+.woocommerce .wp-block-woocommerce-product-image-gallery {
+  max-width: 100%;
+}
+
+/* sticky */
+
+#single-product-sidebar{
+  position: relative;
+}
+
+.admin-bar .wccom-product-sticky-top-bar {
+  top: 32px
+}
+
+.wccom-product-sticky-top-bar {
+  align-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #dcdcde;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  min-height: 96px;
+  padding: 24px 32px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: .5s ease-out;
+  z-index: 998
+}
+
+.wccom-product-sticky-top-bar.hidden {
+  transform: translateY(-300px)
+}
+
+.wccom-product-sticky-top-bar__right {
+  display: flex
+}
+
+.wccom-product-sticky-top-bar__right .wccom-product-price-label {
+  font-size: 12px;
+  line-height: 14px;
+  width: 100%
+}
+
+.wccom-product-sticky-top-bar a {
+  text-decoration: underline
+}
+
+.wccom-product-sticky-top-bar .wccom-product-title__product-name {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px
+}
+
+.wccom-product-sticky-top-bar .wccom-product-title__ratings,
+.wccom-product-sticky-top-bar .wccom-product-title__seperator,
+.wccom-product-sticky-top-bar .wccom-product-title__vendor {
+  line-height: 1
+}
+
+.wccom-product-sticky-top-bar .wccom-product-title__vendor {
+  margin: 0
+}
+
+.wccom-product-sticky-top-bar .wccom-product-title .wccom-reviews-rating-stats-heading__rating-count a {
+  line-height: 1
+}
+.wccom-product-sticky-top-bar .wccom-product-add-to-cart-button {
+  margin: 0;
+}
+.wccom-product-sticky-top-bar--is-external .wccom-product-add-to-cart-button {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.wccom-product-sticky-top-bar--is-external .wccom-product-add-to-cart-button .wccom-button__text {
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.wccom-product-sticky-top-bar--is-external .wccom-product-add-to-cart-button .wccom-product-price-label {
+  margin-right: 8px;
+  margin-top: 0
+}
+
+.wccom-product-sticky-top-bar .wccom-chip {
+  margin-right: 10px;
+  padding-right: 8px
+}
+
+.wccom-product-sticky-top-bar .wccom-product-price {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px
+}
+
+.wccom-product-sticky-top-bar .wccom-product-price__current {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 28px;
+  margin-right: 0;
+  font-weight: 500;
+}
+
+.wccom-product-sticky-top-bar .wccom-product-price__current .price, 
+.wccom-product-sticky-top-bar .wccom-product-price__current .wc-block-grid__product-price{
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+  margin-right: 0 !important;
+}
+
+.wccom-product-sticky-top-bar .wccom-product-price__previous {
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 0
+}
+
+.wccom-product-sticky-top-bar .wccom-product-price--is-out-of-stock {
+  justify-content: center
+}
+
+.wccom-product-sticky-top-bar .wccom-product-price--is-out-of-stock .wccom-product-price__current {
+  font-size: 16px
+}
+
+.wccom-product-sticky-top-bar .wccom-product-box__button {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+}
+
+.wccom-product-sticky-top-bar .wccom-product-view-demo-button .wccom-button {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 16px;
+  padding: 10px 23px;
+  white-space: nowrap
+}
+
+.wccom-product-sticky-top-bar .wccom-reviews-rating-stats-heading__reviews-link {
+  display: none
+}
+
+.wccom-product-sticky-top-bar.with-monthly-pricing .wccom-product-badge {
+  margin-right: -36px
+}
+
+@media screen and (max-width:850px) {
+  .wccom-product-sticky-top-bar.with-monthly-pricing .wccom-product-badge {
+    margin-right: 0
+  }
+
+}
+
+@media screen and (max-width:767px) {
+  .wccom-product-sticky-top-bar {
+    display: none
+  }
+
+}
+
+
+.wccom-product-sticky-bottom-bar {
+  align-content: space-between;
+  background: #fff;
+  bottom: 0;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, .16);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  min-width: 360px;
+  padding: 16px;
+  position: fixed;
+  right: 0;
+  transform: translateY(0);
+  transition: transform .5s;
+  z-index: 997
+}
+
+.wccom-product-sticky-bottom-bar__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px
+}
+
+.wccom-product-sticky-bottom-bar__left .wccom-product-price-label {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 8px;
+  margin-top: 0
+}
+
+.wccom-product-sticky-bottom-bar__right {
+  align-self: center
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-price__current {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-price--is-out-of-stock .wccom-product-price__current {
+  font-size: 16px
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-price__current .price, 
+.wccom-product-sticky-bottom-bar .wccom-product-price__current .wc-block-grid__product-price{
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 28px !important
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-price__previous {
+  font-size: 14px;
+  line-height: 20px
+}
+
+.wccom-product-sticky-bottom-bar__view-details {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.wccom-product-sticky-bottom-bar--hidden-left .wccom-product-sticky-bottom-bar__right {
+  width: 100%
+}
+
+.wccom-product-sticky-bottom-bar--hidden-subscription span.wccom-product-price__current-previous {
+  display: block
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-box__woo-express-cta {
+  background-color: rgba(242, 237, 255, .5);
+  display: block;
+  flex-shrink: 0;
+  font-size: 14px;
+  margin: 16px -16px -16px;
+  padding: 12px 16px;
+  text-align: left;
+  width: 100vw
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-box__woo-express-cta a {
+  text-decoration: underline
+}
+
+.wccom-product-sticky-bottom-bar .wccom-product-box__woo-express-cta .icon-check:before {
+  display: none
+}
+
+.wccom-product-sticky-top-bar .price:before,
+.wccom-product-sticky-bottom-bar .price:before,
+.wccom-product-sticky-top-bar .wc-block-grid__product-price:before,
+.wccom-product-sticky-bottom-bar .wc-block-grid__product-price:before {
+display: none !important
+}
+
+.wccom-product-sticky-bottom-bar.hidden {
+  transform: translateY(300px)
+}
+
+.wccom-product-sticky-bottom-bar--is-external .wccom-product-price-label {
+  display: block;
+  margin-top: 8px;
+  text-align: center
+}
+
+@media screen and (max-width:767px) {
+  .single-product .wccom-banner-footer-placeholder {
+    margin-bottom: 80px
+  }
+
+}
+
+@media screen and (min-width:768px) {
+  .wccom-product-sticky-bottom-bar {
+   display: none
+  }
+
+}
+
+.wccom-product-sticky-top-bar .button,
+.wccom-product-sticky-bottom-bar .button {
+  align-items: center;
+  background: none !important;
+  border: 2px solid #fca30a !important;
+  border-radius: 8px !important;
+  box-sizing: border-box;
+  color: #fca30a !important;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px !important;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 24px !important;
+  margin: 0;
+  padding: 4px 16px !important;
+  position: relative;
+  text-align: center;
+  text-transform: none !important;
+}
+.wccom-product-sticky-top-bar .button:hover,
+.wccom-product-sticky-bottom-bar .button:hover{
+  color: #F27827 !important;
+  border-color: #F27827 !important;
+}
+
+.wccom-product-sticky-top-bar .variations tr,
+.wccom-product-sticky-bottom-bar .variations tr{
+    margin-bottom:0 !important;
+}
+
+.wccom-product-sticky-top-bar .variations tr > td.label,
+.wccom-product-sticky-bottom-bar .variations tr > td.label{
+    display:none !important;
+}
+
+.wccom-product-sticky-top-bar .woocommerce-variation-description,
+.wccom-product-sticky-bottom-bar .woocommerce-variation-description{
+    display:none;
+}
+
+.wccom-product-sticky-top-bar form.variations_form, .wccom-product-sticky-top-bar form.variations_form .single_variation_wrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.wccom-product-sticky-top-bar .variations tr .reset_variations{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.wccom-product-sticky-top-bar .variations tr select{
+}
+
+.wccom-product-sticky-top-bar .woocommerce-variation-price .price,
+.wccom-product-sticky-top-bar .variations tr > td.value,
+.wccom-product-sticky-top-bar .variations button{
+    white-space: nowrap;
+}
+
+.wccom-product-sticky-top-bar .quantity,
+.wccom-product-sticky-bottom-bar .quantity{
+    display:none !important;
+}
+/*
+.wccom-product-sticky-bottom-bar .wccom-button__text{
+    text-align: center !important;
+    line-height: 2em !important;
+}
+.wccom-product-sticky-bottom-bar .single_variation_wrap button {
+    position: absolute !important;
+    right: 0 !important;
+    top: 25px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+}
+
+.wccom-product-sticky-bottom-bar .variations select {
+    width: 240px !important;
+    font-size: 12px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+.wccom-product-sticky-bottom-bar .wccom-product-sticky-bottom-bar__right {
+    align-self: center;
+    width: 100%;
+    position: relative;
+}
+
+.wccom-product-sticky-bottom-bar .reset_variations{display:none !important;}*/
+
+/*
+.wccom-product-sticky-bottom-bar form.variations_form, .wccom-product-sticky-bottom-bar form.variations_form .single_variation_wrap{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.wccom-product-sticky-bottom-bar .variations button{
+    white-space: nowrap;
+}
+*/
+
+.wccom-product-sticky-bottom-bar__left{
+  min-height: 75px;
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+.wccom-product-sticky-bottom-bar__left table.variations{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.wccom-product-sticky-bottom-bar__left .woocommerce-variation-add-to-cart{
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+.wccom-product-sticky-bottom-bar__left .reset_variations{display:none !important;}
+
+.wccom-product-sticky-bottom-bar__left .variations select {
+    font-size: 12px !important;
+    padding: 5px 20px 5px 5px !important;
+    width: auto !important;
+    letter-spacing: -0.03em;
+    background-position: calc(100% - 9px) center,calc(100% - 4px) center,calc(100% - 2.5em) center;
+}
+
+.wccom-product-sticky-bottom-bar__left .variations select:focus{background-position:calc(100% - 4px) center,calc(100% - 9px) center,calc(100% - 2.5em) center;}
+
+.woocommerce .wccom-product-sticky-bottom-bar__left ul.products li.product .price, .wccom-product-sticky-bottom-bar__left .wc-block-grid__product-price{
+    line-height: initial !important;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.woocommerce .wccom-product-sticky-bottom-bar__left .woocommerce-variation-price{
+  letter-spacing: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+console.log("Details and compatibility (from create-block-a3-product-meta-block block)");
