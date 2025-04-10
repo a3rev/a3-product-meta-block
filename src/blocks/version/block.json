@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "a3-product-meta-block/version",
+	"version": "0.1.0",
+	"title": "Version",
+	"category": "a3-prouduct-meta-block-category",
+	"icon": "tag",
+	"description": "A block display version information from meta product.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "a3-product-meta-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": ["a3-product-meta-block-css", "file:./index.css"],
+	"style": ["a3-product-meta-block-css", "file:./style-index.css"],
+	"viewScript": "file:./view.js"
+}

@@ -13,137 +13,137 @@ class A3ProductMetaBlock {
 
 		$this->feature_box = array(
 
-			'wp_requires' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Requires', 'a3-product-meta-block' ), 
-				'value' => __( 'WordPress 4.6 or higher', 'a3-product-meta-block' ) 
+				'label' => __( 'Requires', 'a3-product-meta-block' ),
+				'value' => __( 'WordPress 4.6 or higher', 'a3-product-meta-block' )
 			),
 
-			'wp_compatible' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Compatible up to', 'a3-product-meta-block' ), 
-				'value' => __( 'WordPress 4.9.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Compatible up to', 'a3-product-meta-block' ),
+				'value' => __( 'WordPress 4.9.x', 'a3-product-meta-block' )
 			),
 
-			'wc_requires' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Requires', 'a3-product-meta-block' ), 
-				'value' => __( 'WooCommerce 3.0.0 or higher', 'a3-product-meta-block' ) 
+				'label' => __( 'Requires', 'a3-product-meta-block' ),
+				'value' => __( 'WooCommerce 3.0.0 or higher', 'a3-product-meta-block' )
 			),
 
-			'wc_compatible' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Compatible up to', 'a3-product-meta-block' ), 
-				'value' => __( 'WooCommerce 3.2.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Compatible up to', 'a3-product-meta-block' ),
+				'value' => __( 'WooCommerce 3.2.x', 'a3-product-meta-block' )
 			),
 
-			'rt_requires' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Requires', 'a3-product-meta-block' ), 
-				'value' => __( 'Responsi 6.8.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Requires', 'a3-product-meta-block' ),
+				'value' => __( 'Responsi 6.8.x', 'a3-product-meta-block' )
 			),
 
-			'rt_compatible' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Compatible up to', 'a3-product-meta-block' ), 
-				'value' => __( 'Responsi 6.8.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Compatible up to', 'a3-product-meta-block' ),
+				'value' => __( 'Responsi 6.8.x', 'a3-product-meta-block' )
 			),
 
-			'rp_requires' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Requires', 'a3-product-meta-block' ), 
-				'value' => __( 'Responsi WooCommerce Templates', 'a3-product-meta-block' ) 
+				'label' => __( 'Requires', 'a3-product-meta-block' ),
+				'value' => __( 'Responsi WooCommerce Templates', 'a3-product-meta-block' )
 			),
 
-			'rp_compatible' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Compatible up to', 'a3-product-meta-block' ), 
-				'value' => __( 'Responsi WooCommerce Templates x.x.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Compatible up to', 'a3-product-meta-block' ),
+				'value' => __( 'Responsi WooCommerce Templates x.x.x', 'a3-product-meta-block' )
 			),
 
-			'min_php_version' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Minimum PHP version', 'a3-product-meta-block' ), 
-				'value' => __( 'x.x.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Minimum PHP version', 'a3-product-meta-block' ),
+				'value' => __( 'x.x.x', 'a3-product-meta-block' )
 			),
 
-			'plugin_version' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Version', 'a3-product-meta-block' ), 
-				'value' => __( 'x.x.x', 'a3-product-meta-block' ) 
+				'label' => __( 'Version', 'a3-product-meta-block' ),
+				'value' => __( 'x.x.x', 'a3-product-meta-block' )
 			),
 
-			'released_date' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Released', 'a3-product-meta-block' ), 
-				'value' => __( '2017-12-29', 'a3-product-meta-block' ) 
+				'label' => __( 'Released', 'a3-product-meta-block' ),
+				'value' => __( '2017-12-29', 'a3-product-meta-block' )
 			),
 
-			'wpml_compatible' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( '100% WPML Compatible', 'a3-product-meta-block' ), 
-				'value' => __( 'yes', 'a3-product-meta-block' ) 
+				'label' => __( '100% WPML Compatible', 'a3-product-meta-block' ),
+				'value' => __( 'yes', 'a3-product-meta-block' )
 			),
 
-			'wpml_translation' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Translation ready', 'a3-product-meta-block' ), 
-				'value' => __( 'yes', 'a3-product-meta-block' ) 
+				'label' => __( 'Translation ready', 'a3-product-meta-block' ),
+				'value' => __( 'yes', 'a3-product-meta-block' )
 			),
 
-			'languages' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textfield',
-				'label' => __( 'Languages', 'a3-product-meta-block' ), 
-				'value' => __( 'English', 'a3-product-meta-block' ) 
+				'label' => __( 'Languages', 'a3-product-meta-block' ),
+				'value' => __( 'English', 'a3-product-meta-block' )
 			),
 
-			'support_to' => array( 
+			array(
 				'display' => true,
 				'type'  => 'textarea',
-				'label' => __( 'Support to', 'a3-product-meta-block' ), 
+				'label' => __( 'Support to', 'a3-product-meta-block' ),
 				'value' => __( '
 					<ul class="list-unstyled" style="padding: 0 0 0 17px;margin: 0;">
 						<li style="padding: 0px;margin-bottom: 5px;">All Responsi plugins</li>
 						<li style="padding: 0px;">All Responsi themes</li>
-					</ul>', 'a3-product-meta-block' ) 
+					</ul>', 'a3-product-meta-block' )
 			),
-			
+
 		);
 
 		$this->whats_included = array(
 
-			'wp_line_1' => array( 
+			array(
 				'display' => false,
 				'type'  => 'textfield',
-				'value' => __( '1-year extension updates', 'a3-product-meta-block' ) 
+				'value' => __( '1-year extension updates', 'a3-product-meta-block' )
 			),
 
-			'wp_line_2' => array( 
+			array(
 				'display' => false,
 				'type'  => 'textfield',
-				'value' => __( '1-year support', 'a3-product-meta-block' ) 
+				'value' => __( '1-year support', 'a3-product-meta-block' )
 			),
 
-			'wp_line_3' => array( 
+			array(
 				'display' => false,
 				'type'  => 'textfield',
-				'value' => __( '30-day money-back guarantee', 'a3-product-meta-block' ) 
+				'value' => __( '30-day money-back guarantee', 'a3-product-meta-block' )
 			),
-			
+
 		);
 
 		add_action( 'woocommerce_process_product_meta', array( $this, 'save' ) );
@@ -159,9 +159,9 @@ class A3ProductMetaBlock {
 		if( !isset( $_POST['_a3protemp_meta'] ) ) return;
 
 		if( isset( $_POST[$this->meta_prefix.'meta'] ) && 0 < $_POST[$this->meta_prefix.'meta'] ){
-			
+
 			$data = $_POST[$this->meta_prefix.'meta'];
-			
+
 			if( is_array( $data ) && isset($data['feature']) ){
 				foreach( $data['feature'] as $key => $value ){
 					if( isset( $value['display'] ) ){
@@ -279,7 +279,7 @@ class A3ProductMetaBlock {
 			jQuery( function( $ ) {
 
 				$( document.body ).on( 'form-field-table-sort', function(){
-					
+
 					$('.form-field-table-details-compatibility tbody tr').each( function( index ){
 						$(this).find( '.form-field-label input.short' ).attr( 'name' , '_a3protemp_meta[feature]['+index+'][label]' ).attr( 'id' , '_a3protemp_meta_feature_'+index+'_label' );
 						$(this).find( '.form-field-value input.short, .form-field-value textarea.short' ).attr( 'name' , '_a3protemp_meta[feature]['+index+'][value]' ).attr( 'id' , '_a3protemp_meta_feature_'+index+'_value' );
@@ -306,7 +306,7 @@ class A3ProductMetaBlock {
 							$(this).find('tbody >tr.tr-textarea .delete-row').show();
 						}
 					});
-					
+
 				});
 
 				var fixHelper = function(e, ui) {
@@ -316,10 +316,10 @@ class A3ProductMetaBlock {
 					return ui;
 				};
 
-				$(".form-field-table").sortable({ 
+				$(".form-field-table").sortable({
 					items: 'tr',
-					helper: fixHelper, 
-					placeholder: "ui-state-highlight", 
+					helper: fixHelper,
+					placeholder: "ui-state-highlight",
 					handle: '.column-handle',
 					opacity: 0.8, cursor: 'move',
 					update: function() {
@@ -369,7 +369,7 @@ class A3ProductMetaBlock {
 					$( document.body ).trigger( 'form-field-table-sort' );
 					return false;
 		        });
-		
+
 		});
 		</script>
 
@@ -382,7 +382,7 @@ class A3ProductMetaBlock {
 		$action_box_more_details_url 		= is_array($product_metas) && isset( $product_metas['action_box'] ) && isset( $product_metas['action_box']['more_details_url'] ) ? $product_metas['action_box']['more_details_url'] : '';
 		$action_box_pageid 					= is_array($product_metas) && isset( $product_metas['action_box'] ) && isset( $product_metas['action_box']['pageid'] ) ? $product_metas['action_box']['pageid'] : '';
 		$action_box_more_details_text 		= is_array($product_metas) && isset( $product_metas['action_box'] ) && isset( $product_metas['action_box']['more_details_text'] ) ? $product_metas['action_box']['more_details_text'] : __( '14 day free trial & pricing', 'a3-product-meta-block' );
-		
+
 		$action_box_offer_text 		= is_array($product_metas) && isset( $product_metas['action_box'] ) && isset( $product_metas['action_box']['offer_text'] ) ? $product_metas['action_box']['offer_text'] : __( 'OR', 'a3-product-meta-block' );
 
 		$feature_box_title 					= is_array($product_metas) && isset( $product_metas['feature_box'] ) && isset( $product_metas['feature_box']['title'] ) ? $product_metas['feature_box']['title'] : __( 'Details and compatibility', 'a3-product-meta-block' );
@@ -390,7 +390,7 @@ class A3ProductMetaBlock {
 		?>
 
 		<div id="a3_product_template" class="panel woocommerce_options_panel hidden">
-			
+
 			<p class="form-field" style="width: auto;font-weight: bold;font-size: 14px;white-space: nowrap;">
 				<label><?php esc_attr_e( 'Call to Action', 'a3-product-meta-block' ); ?></label>
 			</p>
@@ -422,7 +422,7 @@ class A3ProductMetaBlock {
 				<?php
 				$pages_obj = get_pages('sort_column=post_parent,menu_order');
 				if( $pages_obj ){
-					echo '<span style="display:block">'.esc_attr__( 'Or', 'a3-product-meta-block' ).'</span>'; 
+					echo '<span style="display:block">'.esc_attr__( 'Or', 'a3-product-meta-block' ).'</span>';
 					?>
 					<select name="<?php echo esc_attr($this->meta_prefix.'meta[action_box][pageid]');?>" class="select short">
 						<option value="0"><?php echo esc_attr__( 'Select a page...', 'a3-product-meta-block' ); ?></option>
@@ -452,7 +452,7 @@ class A3ProductMetaBlock {
 				<label for="<?php echo esc_attr($this->meta_prefix.'meta_feature_box_title');?>"><?php echo esc_attr__( 'Heading', 'a3-product-meta-block' ); ?></label>
 				<input class="short" style="" name="<?php echo esc_attr($this->meta_prefix.'meta[feature_box][title]');?>" id="<?php echo esc_attr($this->meta_prefix.'meta_feature_box_title');?>" placeholder="" value="<?php echo htmlspecialchars( $feature_box_title ); ?>" />
 			</p>
-			
+
 			<div class="form-field">
 				<label></label>
 				<table class="form-field-table form-field-table-details-compatibility wp-list-table">
@@ -475,7 +475,7 @@ class A3ProductMetaBlock {
 							$type 		= is_array( $value ) && isset( $value['type'] ) ? $value['type'] : 'textfield';
 							$val 		= is_array( $value ) && isset( $value['value'] ) ? $value['value'] : '';
 
-							switch ( $value['type'] ) {
+							switch ( $type ) {
 								case 'textfield':
 									echo '<tr class="tr-input">';
 									?>
@@ -520,7 +520,7 @@ class A3ProductMetaBlock {
 						}
 
 						?>
-						
+
 					</tbody>
 				</table>
 			</div>
@@ -538,7 +538,7 @@ class A3ProductMetaBlock {
 				<label for="<?php echo esc_attr($this->meta_prefix.'meta_whats_included_title');?>"><?php echo esc_attr__( 'Heading', 'a3-product-meta-block' ); ?></label>
 				<input class="short" style="" name="<?php echo esc_attr($this->meta_prefix.'meta[meta_whats_included_title][title]');?>" id="<?php echo esc_attr($this->meta_prefix.'meta_whats_included_title');?>" placeholder="" value="<?php echo htmlspecialchars( $whats_included_title ); ?>" />
 			</p>
-			
+
 			<div class="form-field">
 				<label></label>
 				<table class="form-field-table form-field-table-whats-included wp-list-table">
@@ -559,7 +559,7 @@ class A3ProductMetaBlock {
 							$type 		= is_array( $value ) && isset( $value['type'] ) ? $value['type'] : 'textfield';
 							$val 		= is_array( $value ) && isset( $value['value'] ) ? $value['value'] : '';
 
-							switch ( $value['type'] ) {
+							switch ( $type ) {
 								case 'textfield':
 									echo '<tr class="tr-input">';
 									?>
@@ -598,7 +598,7 @@ class A3ProductMetaBlock {
 						}
 
 						?>
-						
+
 					</tbody>
 				</table>
 			</div>
@@ -607,6 +607,8 @@ class A3ProductMetaBlock {
 
 			$dynamic_actions = array(
 				'support' 		=> __( 'Support', 'a3-product-meta-block' ),
+				'documentation' => __( 'Documentation', 'a3-product-meta-block' ),
+				'version' 		=> __( 'Version', 'a3-product-meta-block' ),
 				'extension' 	=> __( 'Want to test this extension?', 'a3-product-meta-block' ),
 			);
 

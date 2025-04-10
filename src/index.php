@@ -9,6 +9,12 @@ include ( A3_PRODUCT_META_BLOCK_PLUGIN_DIR . 'src/blocks/details-compatibility.p
 /* support */
 include ( A3_PRODUCT_META_BLOCK_PLUGIN_DIR . 'src/blocks/support.php');
 
+/* version */
+include ( A3_PRODUCT_META_BLOCK_PLUGIN_DIR . 'src/blocks/version.php');
+
+/* documentation */
+include ( A3_PRODUCT_META_BLOCK_PLUGIN_DIR . 'src/blocks/documentation.php');
+
 /* extension */
 include ( A3_PRODUCT_META_BLOCK_PLUGIN_DIR . 'src/blocks/extension.php');
 
@@ -75,7 +81,7 @@ function _a3_product_block_meta_sticky_layout(){
                 <div class="wccom-product-box__button">
                     <div class="wccom-product-price with-monthly-pricing">
                         <span class="wccom-product-price__current-previous">
-                            
+
                             <span class="wccom-product-price__current">
                                 <?php echo $price; ?>
                                 <!-- <span class="screen-reader-text">Price $19.92</span>
@@ -104,7 +110,7 @@ function _a3_product_block_meta_sticky_layout(){
                 <a href="#single-product-sidebar" class="wccom-link wccom-product-sticky-bottom-bar__view-details is-style-link">
                     <div class="wccom-button__text">View subscription details</div>
                 </a>
-                
+
             </div>
         </div>
         <?php
